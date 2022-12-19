@@ -141,7 +141,8 @@ function ListarCargas() {
                                     <td>{data.camp_7}%</td>
                                     <td>{data.camp_9}%</td>
                                     <td><button onClick={() =>(setDataModalCarga(data.camp_2),setMostrarModal(true))} data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="btn btn-success">Detalle</button></td>
-
+                                    <td><button onClick={() =>(setDataModalCarga(data.camp_2),setMostrarModal(true))} className="btn btn-success">Activar</button></td>
+                                    <td><button onClick={() =>(setDataModalCarga(data.camp_2),setMostrarModal(true))} className="btn btn-danger">Bloquear</button></td>
                                 </tr>
                             ))}
 
